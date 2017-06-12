@@ -3,9 +3,9 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="File 'C:\App\lime-android\app\src\main\java\kr\zeroweb\lime\fragment\MyBusinessPlaceFragment.java'" />
     <option name="defaultScopeName" value="File 'C:\App\lime-android\app\src\main\java\kr\zeroweb\lime\fragment\MyBusinessPlaceFragment.java'" />
-    <option name="wholeWordsOnly" value="true" />
+    <option name="regularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File 'C:\App\lime-android\app\src\main\java\kr\zeroweb\lime\fragment\MyBusinessPlaceFragment.java'" />
     <recentFileMasks>
       <mask>*.properties</mask>
