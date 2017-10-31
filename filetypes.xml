@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="rectangle_radius_4dp_white" type="XML" />
       <mapping pattern="blink" type="XML" />
+      <mapping pattern="dotted_light_gray" type="XML" />
     </extensionMap>
   </component>
 </application>
