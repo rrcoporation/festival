@@ -17,4 +17,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="ehlog" value="Log.e(&quot;eunho&quot; ,&quot;$text$&quot;);" description="Creage a Eunho Log." toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
