@@ -41,4 +41,16 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="initi" value="private void initialization() {&#10;    $text$&#10;}" description="private void init" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="initV" value="private void initView() {&#10;    $text$&#10;}" description="private void initView" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
