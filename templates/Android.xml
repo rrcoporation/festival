@@ -32,4 +32,13 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="tv_match" value="&lt;TextView&#10;    android:id=&quot;@+id/$text$&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot;&#10;    android:text=&quot;$params$&quot;&#10;    android:textColor=&quot;$string$&quot;&#10;    android:textSize=&quot;$int$&quot;/&gt;" description="Create a new TextView - match_parent" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="int" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
