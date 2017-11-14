@@ -53,4 +53,28 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="startAc" value="IntentManager.getInstance().startActivity($text$, $parms$);" description="IntentManager StartActivity!" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="parms" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="startAc_f" value="IntentManager.getInstance().startActivity_finish($text$, $parms$);" description="startActivity and finish" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="parms" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="startA_oneData" value="IntentManager.getInstance().startActivity_oneData();" description="startActivity one data" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="startA_one_action" value="IntentManager.getInstance().startActivity_oneData();" description="startActivity one action" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
