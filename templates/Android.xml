@@ -77,4 +77,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="handlerLeak" value="private void handleMessage(Message msg) {&#10;&#10;}&#10;&#10;static class $handler$ extends Handler {&#10;    private final WeakReference&lt;$object$&gt; mObj;&#10;&#10;    $handler$($object$ obj) {&#10;        mObj = new WeakReference&lt;&gt;(obj);&#10;    }&#10;&#10;    @Override&#10;    public void handleMessage(Message msg) {&#10;        super.handleMessage(msg);&#10;        $object$ obj = mObj.get();&#10;        if (obj != null) {&#10;            obj.handleMessage(msg);&#10;        }&#10;    }&#10;}" description="This Handler class should be static or leaks might occur" toReformat="false" toShortenFQNames="true">
+    <variable name="handler" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
