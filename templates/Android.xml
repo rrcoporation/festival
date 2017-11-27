@@ -84,4 +84,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="init_eunho" value="@AfterViews&#10;void init() {&#10;    initialization();&#10;    initListener();&#10;    thisSetView();&#10;}&#10;&#10;private void initialization() {&#10;    $text$&#10;}&#10;&#10;private void initListener() {&#10;}&#10;&#10;private void thisSetView() {&#10;}" description="Create a new class" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
